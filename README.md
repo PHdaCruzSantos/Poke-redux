@@ -43,13 +43,13 @@ Este é um projeto de estudo que demonstra como usar Redux com React para criar 
 
 ## Proximos Passos
 
-🔳 - **Melhorar a estilização**: Adicionar mais estilos e animações para melhorar a experiência do usuário.
-🔳 - **Adicionar mais funcionalidades**: Adicionar funcionalidades como busca de Pokémon, filtro por tipo, etc.
-🔳 - **Adicionar testes**: Adicionar testes para garantir a qualidade do código.
-🔳 - **Adicionar autenticação**: Adicionar autenticação para permitir que os usuários façam login e mantenham suas listas de Pokémon capturados.
-🔳 - **Adicionar persistência**: Adicionar
-🔳 - **Adicionar mais informações**: Adicionar mais informações sobre os Pokémon, como habilidades, tipos, etc.
-🔳 - **Adicionar mais funcionalidade de Usuário**: Adicionar funcionalidades como editar perfil, adicionar amigos, etc.
+🔳 - **Melhorar a estilização**: Adicionar mais estilos e animações para melhorar a experiência do usuário. <br>
+🔳 - **Adicionar mais funcionalidades**: Adicionar funcionalidades como busca de Pokémon, filtro por tipo, etc. <br>
+🔳 - **Adicionar testes**: Adicionar testes para garantir a qualidade do código. <br>
+🔳 - **Adicionar autenticação**: Adicionar autenticação para permitir que os usuários façam login e mantenham suas listas de Pokémon capturados. <br>
+🔳 - **Adicionar persistência**: Adicionar <br>
+🔳 - **Adicionar mais informações**: Adicionar mais informações sobre os Pokémon, como habilidades, tipos, etc. <br>
+🔳 - **Adicionar mais funcionalidade de Usuário**: Adicionar funcionalidades como editar perfil, adicionar amigos, etc. <br>
 
 # Getting Started with Create React App
 
