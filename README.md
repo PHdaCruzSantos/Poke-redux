@@ -1,3 +1,56 @@
+# Pokémon Redux Application
+
+Este é um projeto de estudo que demonstra como usar Redux com React para criar uma aplicação simples de Pokedex. A aplicação usa a PokeAPI para buscar dados dos Pokémon e Material-UI para a estilização da interface.
+
+## Tecnologias Utilizadas
+
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **Redux**: Biblioteca para gerenciamento de estado.
+- **React-Redux**: Biblioteca para integrar Redux com React.
+- **Redux Thunk**: Middleware para escrever criadores de ações que retornam funções em vez de ações.
+- **Material-UI**: Biblioteca de componentes React para estilização.
+- **PokeAPI**: API RESTful que fornece dados sobre Pokémon.
+
+## Funcionalidades
+
+1. **Lista de Pokémon**: Exibe uma lista de Pokémon buscados da PokeAPI.
+2. **Capturar Pokémon**: Permite ao usuário capturar Pokémon e adicioná-los a uma lista de Pokémon capturados.
+3. **Usuário**: Sistema de login para gerenciar diferentes listas de Pokémon capturados para cada usuário.
+4. **Página do Usuário**: Exibe os Pokémon capturados pelo usuário logado.
+
+## Estrutura do Projeto
+
+- **src**
+  - **components**
+    - `PokemonCard.js`: Componente de cartão para exibir informações do Pokémon.
+    - `PokemonList.js`: Componente de lista para exibir a lista de Pokémon.
+    - `CapturedPokemonCard.js`: Componente de cartão para exibir Pokémon capturados.
+    - `CapturedPokemonList.js`: Componente de lista para exibir os Pokémon capturados pelo usuário.
+  - **reducers**
+    - `index.js`: Combina todos os reducers.
+    - `pokemonReducer.js`: Gerencia o estado dos Pokémon.
+    - `userReducer.js`: Gerencia o estado do usuário.
+  - **store**
+    - `store.js`: Configura o store do Redux.
+  - **actions**
+    - `pokemonActions.js`: Define ações relacionadas aos Pokémon.
+    - `userActions.js`: Define ações relacionadas ao usuário.
+  - **pages**
+    - `HomePage.js`: Página inicial que exibe a lista de Pokémon e a lista de Pokémon capturados.
+    - `UserPage.js`: Página do usuário que exibe os Pokémon capturados pelo usuário logado.
+  - `App.js`: Componente principal da aplicação.
+  - `index.js`: Ponto de entrada da aplicação.
+
+## Proximos Passos
+
+🔳 - **Melhorar a estilização**: Adicionar mais estilos e animações para melhorar a experiência do usuário.
+🔳 - **Adicionar mais funcionalidades**: Adicionar funcionalidades como busca de Pokémon, filtro por tipo, etc.
+🔳 - **Adicionar testes**: Adicionar testes para garantir a qualidade do código.
+🔳 - **Adicionar autenticação**: Adicionar autenticação para permitir que os usuários façam login e mantenham suas listas de Pokémon capturados.
+🔳 - **Adicionar persistência**: Adicionar
+🔳 - **Adicionar mais informações**: Adicionar mais informações sobre os Pokémon, como habilidades, tipos, etc.
+🔳 - **Adicionar mais funcionalidade de Usuário**: Adicionar funcionalidades como editar perfil, adicionar amigos, etc.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
